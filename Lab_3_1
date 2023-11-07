@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-image:url('background.jpg');
+            background-size: cover;
+            color: pink;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-image:url('image3.jpg');
+            background-size: cover;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .profile-image {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="profile-image" src="profile.jpg" alt="Muna Izzah">
+        <h1>Belle</h1>
+        <p>Student, Cat lovers, and Shy girl</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm Muna, a nature-loving soul with a heart full of melodies. I find peace in the woods, joy in the company of my feline friend, and inspiration in the rhythms of life.
+            Nature, cats, and music are my three loves, and I'm always eager to explore new trails, cuddle with my furry companion, and get lost in the world of tunes. Let's share stories of our adventures and the songs that touch our hearts.
+        </p>
+
+        <h2>Skills</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>Photography</li>
+            <li>Sewing</li>
+            <li>Cooking</li>
+        </ul>
+
+        <h2>Hobby</h2>
+        <ul>
+            <li>Reading Books</li>
+            <li>Watching Television</li>
+            <li>Playing with cat</li>
+            <li>Hiking</li>
+            <li>Listen to music</li>
+        </ul>
+
+        <h2>Contact Information</h2>
+        <p>Email: Belle27@gmail.com</p>
+        <p>Instagram: <a href="https://www.instagram.com/mnizzh/">https://www.instagram.com/mnizzh/</a></p>
+        <p>University: <a href="https://www.uthm.edu.my/en/">University Tun Hussein Onn Malaysia </a></p>
+    </section>
+</body>
+</html>
